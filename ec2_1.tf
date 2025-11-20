@@ -1,4 +1,4 @@
-provider "aws" {
+/*provider "aws" {
     alias  = "second"
     region = "ap-southeast-2"
 }   
@@ -13,5 +13,5 @@ resource "aws_instance" "create_instance3" {
     }
 }
 
-
+*/
   

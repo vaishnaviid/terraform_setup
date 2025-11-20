@@ -1,4 +1,4 @@
-provider "aws" {
+/*provider "aws" {
   alias = "third"
   region = "ap-southeast-2"
 }
@@ -12,4 +12,4 @@ resource "aws_instance" "new_servers" {
     Name = "${each.key}_server"
   }
   
-}
+}*/
