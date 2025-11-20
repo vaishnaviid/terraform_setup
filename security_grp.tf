@@ -1,3 +1,4 @@
+/*
 provider "aws" {
     alias = "fourth"
     region = "ap-southeast-2"
@@ -12,3 +13,4 @@ resource "aws_instance" "web" {
         Name = "mywebserver"
     }
 }
+*/
