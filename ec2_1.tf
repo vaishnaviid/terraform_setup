@@ -1,4 +1,5 @@
 provider "aws" {
+    alias  = "second"
     region = "ap-southeast-2"
 }   
 
