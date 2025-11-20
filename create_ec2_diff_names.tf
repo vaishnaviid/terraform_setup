@@ -3,9 +3,9 @@ provider "aws" {
   region = "ap-southeast-2"
 }
 
-resource "aws_instance" "new_servers" 
-{
-  foreach = toset(["web", "app", "db"])
+resource "aws_instance" "new_servers" {
+  
+  for_each = toset(["web", "app", "db"])
   ami           = "ami-007e5a061b93ceb2f"
   instance_type = "t3.micro"
   count = 3
