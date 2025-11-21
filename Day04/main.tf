@@ -20,6 +20,6 @@ resource "aws_instance" "my-web" {
               echo "<h1> Deployed via Terraform </h1>" > /var/www/html/index.html
               EOF
   tags = {
-    Name = each.key
+    Name = web-server
   }
 }
