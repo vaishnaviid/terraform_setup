@@ -1,4 +1,4 @@
-provider "aws" {
+/*provider "aws" {
     region = "ap-southeast-2"
   
 }
@@ -33,4 +33,4 @@ resource "aws_security_group" "my-sg" {
     lifecycle {
       create_before_destroy = true
     }
-}
+}*/
