@@ -11,5 +11,5 @@ resource "aws_instance" "new-web" {
 
 data "aws_security_group" "aws-sg" {
     name = "aws-console-sg"
-    vpc_id = "vpc-09d210704b836f4dc "
+    vpc_id = "vpc-09d210704b836f4dc"
 }
