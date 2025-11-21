@@ -1,5 +1,6 @@
-/*variable "ami" {
+variable "ami" {
     description = "add ami ID"
+    type = string
     default = "ami-007e5a061b93ceb2f" 
   
 }
@@ -20,4 +21,8 @@ variable "sec_grp" {
     default = ["sg-0333bfc6ddecbdcb7"]
   
 }
-*/
+variable "az" {
+    type = list(string)
+    default = ["ap-southeast-2a", "ap-southeast-2b"]
+  
+}

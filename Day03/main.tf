@@ -1,3 +1,4 @@
+/*
 provider "aws" {
     region = "ap-southeast-2"
   
@@ -13,3 +14,4 @@ resource "aws_instance" "appserver" {
     Name = "appserver"
   }
 }
+*/
