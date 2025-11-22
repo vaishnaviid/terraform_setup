@@ -36,5 +36,5 @@ variable "instance_type" {
   
 }
 variable "key_name" {
-  default = "3tier.pem"
+  default = "3tier"
 }
