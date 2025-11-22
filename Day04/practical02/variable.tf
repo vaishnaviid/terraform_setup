@@ -1,3 +1,4 @@
+/*
 variable "ami" {
     description = "add ami ID"
     type = string
@@ -26,3 +27,4 @@ variable "az" {
     default = ["ap-southeast-2a", "ap-southeast-2b"]
   
 }
+*/
