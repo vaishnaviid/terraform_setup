@@ -1,3 +1,4 @@
+/*
 variable "ami" {
     description = "add ami ID"
     default = "ami-007e5a061b93ceb2f" 
@@ -20,3 +21,4 @@ variable "sec_grp" {
     default = ["sg-0333bfc6ddecbdcb7"]
   
 }
+*/
