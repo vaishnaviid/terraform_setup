@@ -1,4 +1,3 @@
-/*
 terraform {
   backend "s3" {
     bucket = "terraformbucketforstate1"
@@ -21,5 +20,8 @@ resource "aws_instance" "appserver" {
   tags = {
     Name = "appserver"
   }
+  provisioner "local-exec" {
+    command = "echo ${self.public_ip} >> ip_address.txt"
+    
+  }
 }
-*/
