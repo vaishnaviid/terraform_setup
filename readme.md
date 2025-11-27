@@ -30,10 +30,13 @@ terraform --version
 sudo yum install -y git
 ```
 4. Recommended VS Code Extensions for Terraform
-Extension Name	Purpose
-HashiCorp Terraform	Syntax highlighting, linting, IntelliSense
-Prettier	Auto-format JSON
-YAML (RedHat)	YAML validation for CI/CD
+
+| Extension Name        | Purpose                                    |
+|-----------------------|--------------------------------------------|
+| HashiCorp Terraform   | Syntax highlighting, linting, IntelliSense |
+| Prettier              | Auto-format JSON                           |
+| YAML (RedHat)         | YAML validation for CI/CD                  |
+
 
 Install from VS Code marketplace → Extensions → Search.
 
