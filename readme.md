@@ -67,12 +67,15 @@ terraform destroy
 ``` bash
 sudo yum install -y awscli
 aws configure
+```
 Enter:
 
-AWS Access Key ID
+- AWS Access Key ID
 
-AWS Secret Access Key
+- AWS Secret Access Key
 
-Default region
-```
+- Default region
+
+✔ Terraform is Ready to Use on EC2!
+
 
