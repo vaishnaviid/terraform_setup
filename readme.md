@@ -13,6 +13,7 @@ SSH into the EC2 instance:
 
 ```bash
 ssh -i your-key.pem ec2-user@your-ec2-ip
+```
 2. Install Terraform on Amazon Linux 2
 ```bash
 sudo yum install -y yum-utils shadow-utils
