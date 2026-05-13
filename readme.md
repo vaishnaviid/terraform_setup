@@ -2,8 +2,7 @@
 
 This guide explains how to set up Terraform on an Amazon Linux EC2 instance along with helpful VS Code extensions and prerequisites.
                     
----                                  
-       waefszrgxtcfygvuibhnokmpl[,mkjhgfdsafgdhjklbjjgdfghjkl                                     
+---                                                            
 ## 1. Launch an EC2 Instance
 - **OS:** Amazon Linux 2  
 - **Instance type:** t2.micro (Free Tier)  
