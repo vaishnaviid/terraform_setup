@@ -6,7 +6,7 @@ This guide explains how to set up Terraform on an Amazon Linux EC2 instance alon
 ## 1. Launch an EC2 Instance
 - **OS:** Amazon Linux 2  
 - **Instance type:** t2.micro (Free Tier)  
-- **Security Group:** Allow SSH (port 22)
+- **Security Group:** Allow SSH (port 22)        
 
 SSH into the EC2 instance:
 
