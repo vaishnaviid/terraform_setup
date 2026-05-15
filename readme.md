@@ -10,7 +10,7 @@ This guide explains how to set up Terraform on an Amazon Linux EC2 instance alon
                                       
 SSH into the EC2 instance:
 
-```bash
+```bash                    
 ssh -i your-key.pem ec2-user@your-ec2-ip
 ```
 2. Install Terraform on Amazon Linux 2
