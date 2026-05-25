@@ -21,3 +21,4 @@ variable "sec_grp" {
     default = ["sg-0333bfc6ddecbdcb7"]
   
 }
+
