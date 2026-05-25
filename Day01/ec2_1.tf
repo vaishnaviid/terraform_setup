@@ -13,5 +13,4 @@ resource "aws_instance" "create_instance3" {
     }
 }
 
-
   
