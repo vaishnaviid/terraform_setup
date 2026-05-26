@@ -1,4 +1,4 @@
-/*
+
 provider "aws" {
     region = "ap-southeast-2"
   
@@ -10,8 +10,8 @@ resource "aws_instance" "new-web" {
     vpc_security_group_ids = [data.aws_security_group.aws-sg.id]
 }
 
+#data block is used to fetch the existing resources from the AWS account.
 data "aws_security_group" "aws-sg" {
     name = "aws-console-sg"
     vpc_id = "vpc-09d210704b836f4dc"
 }
-*/
