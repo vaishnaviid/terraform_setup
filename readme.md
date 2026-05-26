@@ -35,7 +35,7 @@ sudo yum install -y git
 | HashiCorp Terraform   | Syntax highlighting, linting, IntelliSense |
 | Prettier              | Auto-format JSON                           |
 | YAML (RedHat)         | YAML validation for CI/CD                  |
-
+|-----------------------|--------------------------------------------|
 
 Install from VS Code marketplace → Extensions → Search.
 

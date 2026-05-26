@@ -1,4 +1,4 @@
-/*
+
 terraform {
     backend "s3" {
         bucket = "terraformbucketforstate1"
@@ -27,4 +27,3 @@ resource "aws_instance" "app-server" {
     
   }
 }
-*/

@@ -1,8 +1,8 @@
-/*
+# s3 bucket is created manually on AWS console to store the terraform state file.
 terraform {
   backend "s3" {
     bucket = "terraformbucketforstate1"
-    key = "myfile.tfstate"
+    key = "terraform.tfstate"
     region = "ap-southeast-2"
     
   }
@@ -22,4 +22,3 @@ resource "aws_instance" "appserver" {
     Name = "appserver"
   }
 }
-*/

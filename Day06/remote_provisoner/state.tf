@@ -1,4 +1,4 @@
-/*
+
 terraform {
   backend "s3" {
     bucket = "terraformbucketforstate1"
@@ -32,10 +32,9 @@ resource "aws_instance" "appserver" {
     connection {
       type        = "ssh"
       user        = "ec2-user"
-      private_key = file("/home/ec2-user/3tier.pem")
+      private_key = file("C:/downloads/3tier.pem")
       host        = self.public_ip
     }
     
   }
 }
-*/
