@@ -9,7 +9,7 @@ This guide explains how to set up Terraform on an Amazon Linux EC2 instance alon
 - **Security Group:** Allow SSH (port 22)        
                                       
 SSH into the EC2 instance:
-
+    
 ```bash                    
 ssh -i your-key.pem ec2-user@your-ec2-ip
 ```
