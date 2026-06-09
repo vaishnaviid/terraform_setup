@@ -1,5 +1,5 @@
 # Terraform Setup on Amazon Linux EC2
-                     
+                      
 This guide explains how to set up Terraform on an Amazon Linux EC2 instance along with helpful VS Code extensions and prerequisites.
                                 
 ---                                                                              
